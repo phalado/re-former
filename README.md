@@ -1,24 +1,21 @@
-# README
+# Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Forms is Microverse's fifth collaborative project in the Rails' course. The goal is to build a form using three different metods: HTML, [form_tag]https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag and [form_for](https://apidock.com/rails/ActionView/Helpers/FormHelper/form_for).
 
-Things you may want to cover:
+## Link to assignment
 
-* Ruby version
+The assignment for this project is in the Odin Project's Ruby on Rails course that can be found [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms).
 
-* System dependencies
+## Technologies used
 
-* Configuration
+In this project we only used Ruby on Rails.
 
-* Database creation
+## Our project
 
-* Database initialization
+Our project can be found in https://github.com/phalado/re-former/.
 
-* How to run the test suite
+## Contributors
 
-* Services (job queues, cache servers, search engines, etc.)
+Alejandro Andres - [GitHub](https://github.com/alexawesomecode) - @alexawesomecode
 
-* Deployment instructions
-
-* ...
+Raphael Cordeiro - [GitHub](https://github.com/phalado) - @phalado

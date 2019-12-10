@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-
   def edit
     @user = User.find(params[:id])
   end
@@ -7,9 +6,11 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     @user.update(user_params)
-    # if @user.update
-    #   redirect_to new_user_path
-    # end
+    if @user.update(user_params)
+      redirect_to new_user_path
+    else
+      flash[:notice] = 'Message, error, whatever you want'
+    end
   end
 
   def new
@@ -18,7 +19,7 @@ class UsersController < ApplicationController
 
   def create
     # @user = User.new(username: params[:username], email: params[:email], password: [:password])
-   @user = User.new(user_params)
+    @user = User.new(user_params)
     if @user.save
       redirect_to new_user_path
     else
@@ -27,7 +28,6 @@ class UsersController < ApplicationController
   end
 
   def user_params
-  params.require(:user).permit(:username, :email, :password)
+    params.require(:user).permit(:username, :email, :password)
   end
-
 end
