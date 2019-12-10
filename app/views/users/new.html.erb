@@ -1,17 +1,16 @@
 <h1>Hello World, Again!</h1>
 
-<form action="users#new" method="get" accept-charset="UTF-8">
+<form action="/users" method="post" name="users" accept-charset="UTF-8">
 
-<label name="email"> Email: </label>
-<input type="email"> name="email">
+  <label name="email"> Email: </label>
+  <input type="email" name="user[email]">
 
-<label name="username"> Username: </label>
-<input type="text" name="username">
+  <label name="username"> Username: </label>
+  <input type="text" name="user[username]">
 
-<label name="password"> Password: </label>
-<input type="password" name="password"> 
+  <label name="password"> Password: </label>
+  <input type="password" name="user[password]">
 
-
-
- <input type="submit" value="Submit">
+  <input type="submit" value="Submit">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 </form>
