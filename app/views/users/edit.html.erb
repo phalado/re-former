@@ -26,11 +26,9 @@
   <%= submit_tag("Submit") %>
 <% end %>-->
 
-<%= form_for @user,url: user_path(@user) do |u| %>
+<%= form_for @user do |u| %>
   Email: <%= u.email_field :email, placeholder: "example@example.com"%>
   Username: <%= u.text_field :username, value: "New user" %>
   Password: <%= u.password_field :password %>
-  
- <%= u.submit "Submit" %>
+  <%= u.submit "Submit" %>
 <% end %>
-<%= link_to 'Users', users_path %> 
