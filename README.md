@@ -8,7 +8,7 @@ The assignment for this project is in the Odin Project's Ruby on Rails course th
 
 ## Technologies used
 
-In this project we only used Ruby on Rails.
+In this project we only used Ruby on Rails and HTML.
 
 ## Our project
 
