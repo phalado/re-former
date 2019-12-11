@@ -1,6 +1,6 @@
-# Forms
+# Re-former
 
-Forms is Microverse's fifth collaborative project in the Rails' course. The goal is to build a form using three different metods: HTML, [form_tag]https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag and [form_for](https://apidock.com/rails/ActionView/Helpers/FormHelper/form_for).
+Re-former(Forms) is Microverse's fifth collaborative project in the Rails' course. The goal is to build a form using three different metods: HTML, [form_tag]https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag and [form_for](https://apidock.com/rails/ActionView/Helpers/FormHelper/form_for).
 
 ## Link to assignment
 
